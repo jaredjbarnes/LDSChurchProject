@@ -9,7 +9,14 @@ class App extends Component {
       <article className={"app"}>
         <h3>Subtitle</h3>
         <h1>Title of the section</h1>
-        <ImageGallery> </ImageGallery>
+        <ImageGallery>
+          <img title="Mountains" caption="Peace and beauty" src="./images/Photo01.jpg" />
+          <img title="Small Town" caption="Peace and beauty" src="./images/Photo02.jpg" />
+          <img title="Winter" caption="Peace and beauty" src="./images/Photo03.jpg" />
+          <img title="River" caption="Peace and beauty" src="./images/Photo04.jpg" />
+          <img title="Lake" caption="Peace and beauty" src="./images/Photo05.jpg" />
+          <img title="Map" caption="Overview" src="./images/Photo06.jpg" />
+        </ImageGallery>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis enim ac massa sodales euismod.
           Nulla in nunc ac nisl dapibus dapibus ac vitae neque. Praesent id nunc at orci interdum porta. Aliquam eu
@@ -21,9 +28,7 @@ class App extends Component {
           condimentum. Morbi ornare, massa suscipit faucibus pretium, est mi tristique massa, et hendrerit lorem massa
           non magna.
         </p>
-        <figure className={"app-small-video"}>
-          <SmallVideo></SmallVideo>
-        </figure>
+        <SmallVideo className={"app-small-video"}></SmallVideo>
         <p>
           Nulla porttitor, dui nec facilisis condimentum, nisi eros interdum nisi, sed porttitor urna neque non
           libero. Donec mollis purus magna, ut ornare sem sodales non. Integer ullamcorper sem eget augue finibus

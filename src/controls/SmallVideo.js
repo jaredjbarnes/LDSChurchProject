@@ -6,9 +6,22 @@ export default class SmallVideo extends Component {
         super(props);
     }
 
+    _getClassName() {
+        let classNames = ["small-video"];
+        let className = this.props.className;
+
+        if (typeof className === "string") {
+            classNames.push(className);
+        }
+
+        return classNames.join(" ");
+    }
+
     render() {
+
+
         return (
-            <figure className={"small-video"}>
+            <figure className={this._getClassName()}>
                 <video className={"small-video-player"}></video>
                 <div className={"small-video-info"}>
                     <div className={"small-video-title"}>

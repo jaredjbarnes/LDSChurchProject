@@ -12,6 +12,7 @@
     background-color:#ccc;
     border: 1px solid #999;
     box-sizing: border-box;
+    overflow:hidden;
 }
 
 .image-gallery-menu{
@@ -58,6 +59,14 @@
      background-color:#ccc;
      margin-left: 5px;
      border: 1px solid #999;
-     background-size: 40px;
+     background-size: 75px;
      background-position:center center;
+     background-repeat: no-repeat;
+     overflow: hidden;
+     cursor: pointer;
+     box-sizing: border-box;
+ }
+
+ .image-gallery-thumbnail.selected {
+     border: 1px solid rgb(0,122,255) ;
  }
