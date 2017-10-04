@@ -1,0 +1,36 @@
+.small-video {
+    position: relative;
+    height: 190px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+}
+
+.small-video-player{
+    box-sizing: border-box;
+    width: 100%;
+    height: 140px;
+    background-color:#ccc;
+    border: 1px solid #999;
+}
+
+.small-video-info{
+    flex:1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #666;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.small-video-title{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.small-video-caption {
+    font-size: 13px;
+    color: #AAA;
+}
