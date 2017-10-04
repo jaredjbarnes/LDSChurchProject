@@ -1,0 +1,12 @@
+.image-gallery {
+    position: relative;
+    height: 370px;
+    width: 570px;
+}
+
+.image-gallery-thumbnails{
+    width: 570px;
+    height: 320px;
+    background-color:#ccc;
+    border: 1px solid #999;
+}
