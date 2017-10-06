@@ -47,7 +47,7 @@ export default class ImageGallery extends Component {
             };
 
             return (
-                <div className={"image-gallery-thumbnail"}
+                <div key={index} className={"image-gallery-thumbnail"}
                     onClick={onClick}
                     style={style}
                 ></div>
@@ -57,7 +57,6 @@ export default class ImageGallery extends Component {
 
     render() {
         let selectedImage = this._getSelectedImage();
-        let selectedImageProps = selectedImage.props;
 
         return (
             <figure className={"image-gallery"}>
